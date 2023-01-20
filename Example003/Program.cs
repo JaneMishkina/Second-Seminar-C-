@@ -7,31 +7,11 @@
 Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-if (number == 1)
+if (number >= 1 && number <= 5)
 {
     Console.WriteLine($"нет");
 }
-else if (number == 2)
-{
-    Console.WriteLine($"нет");
-}
-else if (number == 3)
-{
-    Console.WriteLine($"нет");
-}
-else if (number == 4)
-{
-    Console.WriteLine($"нет");
-}
-else if (number == 5)
-{
-    Console.WriteLine($"нет");
-}
-else if (number == 6)
-{
-    Console.WriteLine($"да");
-}
-else if (number == 7)
+else if (number == 6 || number ==7)
 {
     Console.WriteLine($"да");
 }
